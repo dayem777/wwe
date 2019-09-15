@@ -1,0 +1,304 @@
+* {
+box-sizing: border-box;    
+padding: 0;
+    margin: 0;
+ font-family:   "Roboto","Verdana","Arial",sans-serif;
+    
+}
+
+nav{
+background-color: #141107;
+    width: 100%;
+    overflow: hidden;
+   height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+    
+ }
+nav ul li {
+list-style: none;
+    display: inline-block;
+    float: left;
+    padding: 18px;
+     line-height: 40px;
+    
+}
+nav ul li a{
+text-decoration: none;
+    color:#e0e0ff;
+    transition-property: color;
+    transition-duration: 1s;
+    
+}
+
+nav ul li a:hover{
+text-decoration: none;
+    color:#692424;
+    
+}
+.navimg{
+width: 50px;
+    
+    
+    
+}
+
+.rig h3{
+float: right;
+    color: #8fc1ed;
+padding-right: 10px;
+    padding-left: 10px;
+    line-height: 55px;
+    
+    
+    
+}
+.net{
+    
+    background-color: #17150e;
+    color: #FFF;
+    padding: 5px;
+    border-radius: 5px;
+    line-height: 110px;
+    transition-property: background-color,color;
+    transition-duration: 2s;
+    
+
+
+}
+
+.net:hover{
+    
+     background-color: #e80000;
+    color: #FFF;
+    
+    
+
+
+}
+.auto{
+
+    width: 100%;
+    
+    
+}
+.taker-img{ 
+padding-top: 40px;
+    
+        ;
+     
+    transition: 0.5s,scale,opacity;
+    transition-delay: 1s;
+  
+    
+
+}
+.taker-img:hover{
+    transform:
+    scale(0.7)
+    
+     
+    
+}
+
+.taker-img img{
+    border-radius: 5px;
+    
+    
+    width: 100%;
+    
+   transition-property: opacity;
+    transition-duration: 2s;
+    opacity: 1;
+    
+}
+.taker-img img:hover{
+opacity: 0.8;    
+    
+}
+
+.taker{
+padding-top: 100px;
+    padding-left: 40px;
+    letter-spacing: 10px;
+    padding-right: 100px;
+    word-spacing: 10px;
+    color: darkslategrey;
+    
+    
+}
+.thparts{
+width: 100%    
+    ;padding-top: 100px
+        ;overflow: hidden;
+}
+.kofi{
+width:33.33%;
+    float: left;
+    padding: 10px;
+    
+    
+    
+}
+.kofi img{
+transition: 1s opacity;
+    border-bottom: 5px solid yellow;
+    
+    opacity: 1;
+    
+}
+.kofi img:hover{
+    opacity: 0.7
+    
+}
+.trending{
+background-color: #003250;
+    overflow: hidden
+    
+}
+.trending div h3{
+color: #d9d9d9;
+    padding-left: 30px;
+    padding-top: 20px;
+    line-height: 30px
+    
+}
+.wwe{
+
+    overflow: hidden;
+    
+    
+    
+    
+}
+
+
+.trending div form button{
+
+    overflow: hidden;
+    
+   
+
+
+    color: aliceblue;
+    padding-bottom: 120px;
+    float: right;
+    padding:25px;
+    background-color: red;
+    line-height: 0.6px;
+    border: black;
+    
+    
+    
+}
+.fshane{
+background-color: 
+    #021b2a;
+    overflow: hidden;
+        
+    
+}
+
+.shane {
+padding:20px;
+    float: left;
+    width: 25%;
+    
+}
+.shane img {
+
+    width: 100%;
+    
+}
+.shane h3{
+
+color: aliceblue;
+    padding-top: 9px;
+    
+}
+.back{
+background-image: url(img/big%20kofi.jpg) ;
+    background-size:cover;
+    
+    padding: 400px;
+    position: relative;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    
+}
+.down{
+    
+    position: absolute;
+    overflow: hidden;
+    bottom: 0;
+    left: 0;
+    padding-left: 20px;
+    padding-bottom: 20px
+}
+.smack{
+    padding: 10px;
+    color: white;
+    background-color: blue;
+    border: blue;
+    
+    
+}
+.down h1{
+padding-top: 10px    
+    
+    
+}
+.down i {
+    padding: 2px;
+}
+.banner img {
+    width: 100%;
+     
+    transition: 1s,rotatey;
+    
+    
+}
+.banner img:hover
+{
+    transform: rotateY(180deg)
+    
+}
+.thpartss{
+width: 100%    
+    ;padding-top: 100px
+        ;overflow: hidden;
+}
+
+.kofis{
+width:33.33%;
+    float: left;
+    padding: 10px;
+    
+    
+    
+}
+.kofis img{
+
+    border-bottom: 4px solid black;
+    
+    
+    
+}
+.footer{
+background-color: black;
+    overflow: hidden
+    
+}
+.part{
+width: 16.66%;
+    float: left;
+    padding: 20px;
+    color: aliceblue;
+    font-family: sans-serif;
+    
+    
+}
+.part img {width: 100%}
+
